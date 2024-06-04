@@ -1,0 +1,14 @@
+.ipynb_checkpoints/
+.neptune/async/
+checkpoints/mortality/finetune/.neptune/async/
+checkpoints/mortality/lineareval/.neptune/async/
+__pycache__/
+scripts/mortality/eval/.neptune/async/
+scripts/mortality/train/.neptune/async/
+scripts/phenotyping/eval/.neptune/async/
+scripts/phenotyping/train/.neptune/async/
+ehr_utils/__pycache__/__init__.cpython-36.pyc
+ehr_utils/__pycache__/preprocessing.cpython-36.pyc
+checkpoints/
+decompensation/
+length-of-stay/
