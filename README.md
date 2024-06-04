@@ -1,4 +1,12 @@
-## Self-supervised learning with chest X-ray images and electronic health records data
+# 🩻 MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Images
+
+**Submitted as paper at NeurIPS 2024 Datasets and Benchmarks Track**  <br>
+
+### Release
+
+- [06/05] 🩻 **MedMod** (Initial) models and clinical tasks are released, [[Code](https://github.com/proximacentauri2024/Multimodal-BenchMark/)] 
+
+- [2024/06/05] **MedMod** is submitted to NeurIPS 2024 Datasets and Benchmarks Track as **workshop paper**.
 
 Table of contents
 =================
@@ -20,7 +28,7 @@ Environment setup
 ==================
 We originally follow the medfuse environment, however to run this repo, you must install and run a few more libraries that are currently NOT in the below yml file provided by medfuse.
 
-    git clone https://github.com/nyuad-cai/MedFuse.git
+    git clone https://github.com/proximacentauri2024/MedFuse.git
     cd MedFuse
     conda env create -f environment.yml
     conda activate medfuse
@@ -72,4 +80,20 @@ There are a few notebooks that may be helpful:
 Citation 
 ============
 
-If you use this code for your research, please consider citing: TODO
+If you find MedMod useful for your research and applications, please cite using this BibTeX:
+```bibtex
+@misc{author2024medmod,
+    title={MedMod: A Multimodal Benchmark for Clinical Prediction Tasks with Electronic Health Records and Chest X-Ray Images},
+    url={https://github.com/proximacentauri2024/Multimodal-BenchMark},
+    author={Authors},
+    month={June},
+    year={2024}
+}
+```
+
+Related Projects
+============
+
+- MedFuse: Multi-modal fusion with clinical time-series data and chest X-ray images
+  - [Paper](https://arxiv.org/pdf/2207.07027)
+  - [Code](https://github.com/nyuad-cai/MedFuse)
